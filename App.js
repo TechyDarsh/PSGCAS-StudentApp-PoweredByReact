@@ -11,7 +11,7 @@ export default function App() {
   const [selectedCampus, setSelectedCampus] = useState('PSG CAS'); // Default selection
 
   const handleLogin = () => {
-    if (rollNumber === '23MSS051' && password === 'sridarshan') {
+    if (rollNumber === 'admin' && password === 'admin') {
       setAuthenticated(true);
     } else {
       setPassword('');
